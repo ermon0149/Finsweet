@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    height: unset;
+    padding: unset;
+    box-sizing: border-box;
+    position: unset;
+    .main {
+      nav {
+        ul {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: end;
+          align-items: start;
+          gap: 50px;
+          li {
+            width: fit-content;
+            &:hover {
+              background-color: unset;
+            }
+            a {
+              text-decoration: none;
+              text-transform: capitalize;
+              transition: 700ms;
+              &:hover {
+                color: black;
+                border-color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sub-svg{
+    position: absolute;
+  }
+  .gamebtn{
+    display: none;
+  }
+  label[for="close"]{
+    display: none;
+  }

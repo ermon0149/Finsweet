@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: finsweet1;
+}
+.wrapper{
+    width: 100%;
+}
+@font-face {
+    font-family: finsweet1;
+    src: url(../../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: finsweet2;
+    src: url(../../fonts/Manrope-VariableFont_wght.ttf);
+
+}
