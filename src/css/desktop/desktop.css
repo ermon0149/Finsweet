@@ -11,7 +11,7 @@ header {
           flex-flow: row nowrap;
           justify-content: end;
           align-items: start;
-          gap: 50px;
+          gap: 30px;
           li {
             width: fit-content;
             &:hover {
